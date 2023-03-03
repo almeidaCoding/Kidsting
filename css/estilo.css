@@ -137,7 +137,7 @@ p{
 		margin: 115px;
 	}
 	.colum h1{
-		font-size: 40px;
+		font-size: 50px;
 		margin-right: 70px;
 	}
 	header{
@@ -155,10 +155,10 @@ p{
 	}
 }
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:428px){
 	.principalSect{
 		width: 150%;
-		height: 100%;
+		height: 20%;
 	}
 
 }
