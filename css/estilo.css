@@ -9,15 +9,42 @@ body{
 	background-color: #222831;
 	font-family: 'Poppins', sans-serif;
 }
-header{
+.principalSect{
+	width: 428px;
+	height: 926px;
 	display: flex;
-	justify-content: flex-end;
-	margin: 30px 20px 0px 0px;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+}
+.principalSect header{
+	display: flex;
+	flex-direction: column;
+}
+.bienvenidaAstro{
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+}
+.colum h1{
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 96px;
+	text-align: center;
+	color: #EEEEEE;
+}
+.bienvenidaAstro img{
+	width: 380px;
+	height: 380px;
+}
+header{
+	margin-top: 70px;
 }
 .iSesion{
-	height: 50px;
-	width: 150px;
-	margin-right: 20px;
+	width: 380px;
+	height: 68px;
+	margin-bottom: 8px;
 	border-radius: 5px;
 	padding: 8px 24px 8px 24px;
 	background-color: #B194F5;
@@ -25,14 +52,9 @@ header{
 	border:none;
 	cursor: pointer;
 }
-.iSesion:hover{
-	color: #EEEEEE;
-	background-color: #582CCC;
-	transition: 1s ease;
-}
 .registro{
-	height: 50px;
-	width: 150px;
+	width: 380px;
+	height: 68px;
 	border-radius: 5px;
 	padding: 8px 24px 8px 24px;
 	border: 1.5px solid #B194F5;
@@ -40,126 +62,12 @@ header{
 	background-color: transparent;
 	cursor: pointer;
 }
-.registro:hover{
-	border-color: #582CCC;
-	transition: 1s ease;
-}
-.bienvenidaAstro{
-	display: flex;
-	flex-direction: row;
-}
-.colum{
-	width: 500px;
-	margin-left: auto;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-img{
-	margin-bottom: -30px;
-	height: 600px;
-	width: 600px;
-}
-.colum h1{
-	font-size: 60px;
-	font-weight: 700;
-	line-height: 96px;
-	text-align: center;
-	color: #EEEEEE;
+
+
+.final-page {
+	display: none;
 }
 .colum h3{
-	font-size: 23px;
-	font-weight: 400;
-	line-height: 35px;
-	text-align: center;
-	color: #EEEEEE;
-}
-.final-page{
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	height: 180px;
-	width: 1200px;
-	margin-left: 30px;
-	background: linear-gradient(180deg, rgba(238, 238, 238, 0.4) 0%, rgba(238, 238, 238, 0.1) 100%);
-	box-shadow: 0px 4px 24px rgba(238, 238, 238, 0.25);
-	backdrop-filter: blur(22.5px);
-	border-radius: 70px 70px 0px 0px;
-}
-footer img{
-	height: 100px;
-	width: 100px;
-	margin-bottom: 15px;
-}
-p{
-	font-size: 25px;
-	font-weight: 700;
-	text-align: center;
-	color: #EEEEEE;
-}
-.one-parrafo{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-}
-.two-parrafo{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-}
-.tree-parrafo{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-}
-@media only screen and (max-width:900px){
-
-	/* Footer en tablet y mobile desaparece */
-
-	.final-page{
-		display: none;
-	}
-	h3{
-		display: none;
-	}
-
-	/* Comienzo de las modificaciones */
-
-	.principalSect{
-		display: flex;
-		flex-direction: column-reverse;
-		justify-content: center;
-		align-items: center;
-	}
-	.bienvenidaAstro{
-		flex-direction: column-reverse;
-		margin: 115px;
-	}
-	.colum h1{
-		width: 30px;
-		font-size: 50px;
-		margin-right: 70px;
-	}
-	header{
-		flex-direction: column;
-		margin-left: 40px;
-	}
-	.iSesion{
-		margin-bottom: 10px;
-		width: 380px;
-		height: 68px;
-	}
-	.registro{
-		width: 380px;
-		height: 68px;
-	}
+	display: none;
 }
 
-@media only screen and (max-width:428px){
-	.principalSect{
-		width: 150%;
-		height: 20%;
-	}
-
-}
